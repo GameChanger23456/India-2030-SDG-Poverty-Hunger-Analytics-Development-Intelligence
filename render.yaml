@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: india-sdg-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn india_sdg_dashboard:server
