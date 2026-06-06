@@ -6,3 +6,4 @@ dash
 reportlab
 openpyxl
 xlsxwriter
+dash-bootstrap-components
